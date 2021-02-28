@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'DotGothic16';
+    src        : url('../fonts/DotGothic16-Regular.ttf');
+}
+
+* {
+    font-family: 'DotGothic16', 'Courier New', Courier, monospace;
+}
+
+body {
+    display        : flex;
+    height         : 100vh;
+    justify-content: center;
+    align-items    : center;
+
+    color           : #fff;
+    background-color: #011f4b;
+    text-align      : center;
+}
