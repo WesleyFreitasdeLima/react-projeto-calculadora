@@ -1,8 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import '../assets/css/display.css';
 
 function Component(props) {
-
     return (
         <div className="display">
             {props.defaultValue}
