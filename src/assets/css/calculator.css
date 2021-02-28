@@ -1,7 +1,12 @@
 .calculator {
-    height: 320px;
-    width: 235px;
+    width  : 200px;
+    height : auto;
+    padding: 10px;
 
-    overflow: hidden;
-    background-color: red;
+    overflow        : hidden;
+    background-color: #2a4d69;
+
+    display              : grid;
+    grid-template-columns: 50px 50px 50px 50px;
+    grid-template-rows   : 1fr 40px 40px 40px 40px 40px;
 }
